@@ -4,7 +4,7 @@ const initialState = {
   imageUrl: null,
   transformations: null,
   initialTransformations: null,
-  zoomTrigger: null, // 'in', 'out', or null
+  zoomTrigger: null, //'in', 'out', or null
 };
 
 export const canvasSlice = createSlice({
